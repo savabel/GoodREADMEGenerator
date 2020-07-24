@@ -1,7 +1,7 @@
-const generateMarkdown = require("./utils/generateMarkdown");
-const inquirer = require("inquirer");
-const axios = require("axios");
-const fs = require("fs");
+var inquirer = require("inquirer");
+var generateMarkdown = require("./utils/generateMarkdown");
+var axios = require("axios");
+var fs = require("fs");
 
 // Require all npm packages and files
 
